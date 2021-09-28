@@ -77,8 +77,13 @@ const grado = (nota >= 95) ? 'A+' :
 ```
 * Switch
 * While y Do While
-* For, For in, For of
-
+* For, For in - Ciclo en el que devuelve los indices, For of - Ciclo en el que devuelve los valores.
+* Para hacer uso de un indice con un `for of` se puede usar las desestructuración y el método `entries()`:
+```javascript
+for (const [i, v] of ['a', 'b', 'c'].entries()) {
+    ....
+}
+```
 ---
 
 # Clases y Propiedades Privadas (ESNext)
